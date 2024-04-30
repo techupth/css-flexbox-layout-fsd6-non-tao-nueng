@@ -1,54 +1,57 @@
 * {
-  margin: 3px;
+  margin: 2px;
 }
 
-h1 {
-  align-items: center;
-  justify-content: center;
-}
-
-.container {
+body {
+  font-size: 24px;
+  color: white;
   height: 100vh;
+  width: 100vw;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-.header {
-  background-color: teal;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.flex-header {
+  background-color: blue;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.main-box {
+.flex-main {
   display: flex;
-  /* background-color: orange; */
-  margin: 2px;
+  flex: 1;
 }
 
-.nav {
+.flex-nav {
   background-color: orange;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  flex: 1 1;
+  padding-top: 3rem;
+  flex: 1 1 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.content {
+.flex-article {
+  background-color: green;
+  padding-top: 3rem;
+  flex: 3 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-aside {
   background-color: orange;
-  padding-top: 32rem;
-  padding-bottom: 48px;
-  flex: 1 1 40rem;
+  padding-top: 3rem;
+  flex: 1 1 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.ads {
-  background-color: orange;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  flex: 1 1;
-}
-
-.footer {
-  background-color: khaki;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.flex-footer {
+  background-color: blue;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
