@@ -1,1 +1,94 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  /* background-color: aqua; */
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    hsl(0, 100%, 70%, 1),
+    hsl(240, 100%, 70%, 1)
+  );
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title {
+  color: #fff;
+  text-shadow: 3px 2px #555;
+}
+
+.cat-box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 200px;
+  padding: 25px;
+  gap: 25px;
+
+  align-items: center;
+  justify-content: center;
+  background: hsla(0, 50%, 100%, 0.5);
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.feature p {
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+}
+
+.feature p:last-child {
+  border-bottom: none;
+}
+
+.btn {
+  background-color: yellow;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 7px;
+}
+
+.price {
+  font-size: 48px;
+}
+
+.dog-box {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 200px;
+  padding: 25px;
+  gap: 25px;
+
+  align-items: center;
+  justify-content: center;
+  background: hsla(0, 50%, 100%, 0.5);
+}
+
+.fish-box {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 200px;
+  padding: 25px;
+  gap: 25px;
+
+  align-items: center;
+  justify-content: center;
+  background: hsla(0, 50%, 100%, 0.5);
+}
